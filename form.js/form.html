@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+ <html lang="en">
+     <head>
+         <meta charset="UTF-8"> 
+         <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+          <title>Application Form</title>
+           <link rel="stylesheet" 
+           href="style.css">
+         </head>
+          <body> 
+            <form id="applicationForm">
+              <label for="name">Name:</label><br> 
+              <input type="text" id="name" 
+        name="name" required><br>
+              <label for="contact">Email or URL:</label><br> 
+              <input type="text" id="contact" name="contact" required><br>
+              <label for="Date of Birth">Date of Birth:</label><br>
+               <input type="date" id="contact" name="DOB" required><br>
+                <label for="age">Age:</label><br>
+                 <input type="number" id="age" name="age" min="18" required><br>
+                  <label for="Phone No">Phone No:</label><br>
+                   <input type="number" id="no" name="no" required><br>
+                    <label for="Alternate Phone No">Alternate Phone No:</label><br> 
+                    <input type="number" id="no" name="no" required><br>
+                     <label for="zip">Zip Code:</label><br>
+                     <input type="text" id="zip" name="zip" required><br>
+                      <label for="address">Address:</label><br>
+                       <input type="text" id="address" name="address"><br>
+                        <label for="checkboxes">Courses:</label><br>
+                         <input type="checkbox" id="checkbox1" name="checkboxes" value="option1">Web Devolopment<br> 
+                         <input type="checkbox" id="checkbox2" name="checkboxes" value="option2">Data Science<br> 
+                         <input type="checkbox" id="checkbox2" name="checkboxes" value="option2">Cyber Security<br>
+                          <input type="checkbox" id="checkbox2" name="checkboxes" value="option2">Blockchain<br>
+                           <input type="checkbox" id="checkbox2" name="checkboxes" value="option2">Data Analytics<br>
+                            <label for="radiobuttons">Gender:</label><br> 
+                            <input type="radio"  name=gender  value="Male"> Male<br>
+                             <input type="radio" name="gender" value="Female">Female <br>
+                             <label for="radiobuttons">Category:</label><br> 
+                             <input type="radio" id="1" name="1" value="1">General<br>
+                              <input type="radio" id="2" name="2" value="Female">Physically Challenged<br>
+                               <input type="radio" id="3" name="3" value="Female">Scheduled Caste<br>
+                                <input type="radio" id="4" name="4" value="Female">Scheduled Tribe<br>
+                                 <input type="radio" id="5" name="5" value="Female">Other Backward Classes<br> 
+                                 <br>Id Proof<br> <input type="file" name="Id Proof" placeholder="Choose File"><br>
+                                 <br>Passport Size Photo<br> <input type="file" name="Photo" placeholder="Choose File"><br> 
+                                 <br>Signature<br> <input type="file" name="Signature" placeholder="Choose File"><br>
+                                  <br> <input type="submit" value="Submit">
+                                 </form> <div id="errorMessage" style="display:none; color:red;">
+                                </div> 
+                     <link rel="stylesheet" href="script.js"> 
+                 </body>
+              </html>
+
+
+    
